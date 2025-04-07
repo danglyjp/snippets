@@ -61,7 +61,7 @@ services:
       - N8N_PROTOCOL=https
       - NODE_ENV=production
       - WEBHOOK_URL=https://${DOMAIN}
-      - GENERIC_TIMEZONE=Asia/Tokyo
+      - GENERIC_TIMEZONE=Asia/Ho_Chi_Minh
       - N8N_SESSION_TIMEOUT=259200000
     volumes:
       - $N8N_DIR:/home/node/.n8n
